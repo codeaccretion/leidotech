@@ -1,0 +1,75 @@
+header{
+    background-color: #343A40;
+}
+
+header a{
+    color: #fff;
+}
+
+#showcase-area{
+    background-image: url('../img/getcertified.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+footer{
+    padding: 3vh 0;
+    background-color: rgb(34, 38, 41);
+    color: #fff;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    color: #fff;
+}
+
+.footer-btn{
+    margin-top: 1vh;
+    width: 178px;
+}
+
+.category i{
+    font-size: 30px;
+}
+
+.margin-5{
+    margin-top: 5vh;
+}
+
+.margin-10{
+    margin-top: 10vh;
+}
+
+.news-background{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+li ul{
+    position: absolute;
+    background-color: rgb(34, 38, 41);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+li ul li{
+    padding: 10px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+.current-background{
+    width: 50%;
+    height: 50vh;
+}
